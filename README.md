@@ -16,7 +16,7 @@ bashとpython3が動く環境があれば動きます
 1. 次のコマンドをコピーし、Termuxに貼り付けレポジトリをインストールします
 
    ```bash
-   apt update && apt upgrade && apt install git termux-exec termux-api termux-tools -y &&  apt autoclean -y && git clone https://github.com/duchess-seducing-pureness3/5ch_huge_anchor_tfoyigiuhuoo.git && chmod +x $HOME/5ch_huge_anchor_tfoyigiuhuoo/install.sh && bash $HOME/5ch_huge_anchor_tfoyigiuhuoo/install.sh
+   apt update && apt upgrade -y && apt install git termux-exec termux-api termux-tools -y &&  apt autoclean -y && git clone https://github.com/duchess-seducing-pureness3/5ch_huge_anchor_tfoyigiuhuoo.git && chmod +x $HOME/5ch_huge_anchor_tfoyigiuhuoo/install.sh && bash $HOME/5ch_huge_anchor_tfoyigiuhuoo/install.sh
    ```
 
 1. 次のコマンドをtermuxに貼り付けEnterを押し、その後□ボタンからtermuxをタスクキルして終了します。
@@ -27,7 +27,7 @@ bashとpython3が動く環境があれば動きます
 
 1. ホーム画面に戻りTermux:Wdgetのウィジェットを設置します  
    画像のようなのを探し出し好きなところに置いて下さい  
-![](https://user-images.githubusercontent.com/89536411/130832837-e4a51bcc-333c-47d9-9197-99a43fa90874.jpg)
+![](./IMG_20210826_003354.jpg)
 1. インストールおわり
 
 ## 使い方
@@ -46,3 +46,4 @@ bashとpython3が動く環境があれば動きます
    apt remove -y git termux-exec termux-api termux-tools python jq && apt autoremove -y && apt autoclean -y
    rm -rf $HOME/5ch_huge_anchor_tfoyigiuhuoo
    ```
+
