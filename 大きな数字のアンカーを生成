@@ -1,0 +1,7 @@
+#! /bin/bash
+# 入力欄を表示し通知欄からデータをコピーするスクリプト
+# Androidのクリップボードが塞がれているのでget出来ない為
+bash $HOME/5ch_huge_anchor_tfoyigiuhuoo/anchor_front_Android_dialog.sh
+
+# 直接クリップボードからアンカーの数字をコピーしクリップボードに直接返すスクリプト
+# bash $HOME/5ch_huge_anchor_tfoyigiuhuoo/anchor_front_Android_clibord.sh

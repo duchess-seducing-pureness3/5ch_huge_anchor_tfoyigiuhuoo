@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"autocloean",
+			"autoremove",
+			"donjayamanne",
+			"rogalmic",
+			"shakram",
+			"shellcheck",
+			"termux",
+			"timonwong"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"timonwong.shellcheck",
+			"ms-python.python",
+			"donjayamanne.python-extension-pack",
+			"streetsidesoftware.code-spell-checker",
+			"mads-hartmann.bash-ide-vscode",
+			"rogalmic.bash-debug",
+			"shakram02.bash-beautify"
+		]
+	}
+}
