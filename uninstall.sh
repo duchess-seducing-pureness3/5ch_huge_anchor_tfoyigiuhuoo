@@ -7,4 +7,4 @@ apt autoremove -y && apt autoclean -y
 # 実行ファイルを削除
 rm -rf $HOME/5ch_huge_anchor_tfoyigiuhuoo
 # ウィジェットの一覧から削除
-rm $HOME/.shortcut/tasks/大きな数字のアンカーを生成
+rm $HOME/.shortcuts/tasks/大きな数字のアンカーを生成
