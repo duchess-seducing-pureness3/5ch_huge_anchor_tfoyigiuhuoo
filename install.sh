@@ -5,7 +5,7 @@
 apt install jq python -y
 
 # ウィジェット用のディレクトリ作成しコピーし実行権限を付与
-mkdir $HOME/.shortcut/tasks
+mkdir -p $HOME/.shortcuts/tasks
 cp $HOME/5ch_huge_anchor_tfoyigiuhuoo/大きな数字のアンカーを生成 $HOME/.shortcut/tasks
 chmod +x $HOME/.shortcut/tasks/大きな数字のアンカーを生成
 # 各スクリプトに実行権限を付与
