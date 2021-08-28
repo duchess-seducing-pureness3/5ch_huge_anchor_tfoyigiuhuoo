@@ -16,7 +16,7 @@ bashとpython3が動く環境があれば動きます
 1. 次のコマンドをコピーし、Termuxに貼り付けレポジトリをインストールします
 
    ```bash
-   apt update && apt upgrade -y && apt install git termux-exec termux-api termux-tools -y &&  apt autoclean -y && git clone https://github.com/duchess-seducing-pureness3/5ch_huge_anchor_tfoyigiuhuoo.git && chmod +x $HOME/5ch_huge_anchor_tfoyigiuhuoo/install.sh && bash $HOME/5ch_huge_anchor_tfoyigiuhuoo/install.sh
+   apt update && apt upgrade -y && apt install git termux-exec termux-api termux-tools -y &&  apt autoclean -y && cd $HOME && git clone https://github.com/duchess-seducing-pureness3/5ch_huge_anchor_tfoyigiuhuoo.git && chmod +x $HOME/5ch_huge_anchor_tfoyigiuhuoo/install.sh && bash $HOME/5ch_huge_anchor_tfoyigiuhuoo/install.sh
    ```
 
 1. 次のコマンドをtermuxに貼り付けEnterを押し、その後□ボタンからtermuxをタスクキルして終了します。
