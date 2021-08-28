@@ -6,8 +6,8 @@ apt install jq python -y
 
 # ウィジェット用のディレクトリ作成しコピーし実行権限を付与
 mkdir -p $HOME/.shortcuts/tasks
-cp $HOME/5ch_huge_anchor_tfoyigiuhuoo/大きな数字のアンカーを生成 $HOME/.shortcut/tasks
-chmod +x $HOME/.shortcut/tasks/大きな数字のアンカーを生成
+cp $HOME/5ch_huge_anchor_tfoyigiuhuoo/大きな数字のアンカーを生成 $HOME/.shortcuts/tasks
+chmod +x $HOME/.shortcuts/tasks/大きな数字のアンカーを生成
 # 各スクリプトに実行権限を付与
 list=(
   $HOME/5ch_huge_anchor_tfoyigiuhuoo/anchor_front_Android_dialog.sh
