@@ -8,7 +8,7 @@ wait
 input_num=$(echo $input | jq -r .text)
 SCRIPT_ANCHOR_DIR="$CURRENT/anchor.sh"
 anchor=$($SCRIPT_ANCHOR_DIR $input_num)
-termux-notification  --action `(termux-clipboard-set $anchor && termux-toast $anchorをコピーしました)` \
+termux-notification  --action "termux-clipboard-set $anchor ; termux-toast $anchorをコピーしました" \
     -t 大きな数字のアンカー -c タップして「$anchor」をコピーします \
-    --button1-action `(termux-clipboard-set $anchor  termux-toast $anchorをコピーしました && termux-vibrate)` \
+    --button1-action "termux-clipboard-set $anchor ; termux-toast $anchorをコピーしました ; termux-vibrate" \
     --button1 コピー
