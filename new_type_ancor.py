@@ -65,7 +65,8 @@ def add_anchor(_anchor: str):
     :param _anchor:アンカーの数字(str)
     :return:"&#062;&#062;" + anchor (>>2の32乗にアンカーが加えられた数字)
     """
-    return "&#062;&#062;" + _anchor
+    # ここでシェルように&や;をエスケープしないとうまく文字列を渡せない(bashのメタ文字として解釈されてしまう)
+    return "\&#062\;\&#062\;" + _anchor
 
 
 def stdout(_text: str) -> None:
