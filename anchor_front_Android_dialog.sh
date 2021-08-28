@@ -5,4 +5,4 @@ input="$(termux-dialog -t "アンカーを入力してください" -i "アン�
 input_num="$(echo $input | jq -r .text)"
 SCRIPT_ANCHOR_DIR="./anchor.sh"
 anchor="$($SCRIPT_ANCHOR_DIR $input_num)"
-termux-notification  --action "(termux-clipboard-set ""$anchor"" && termux-toast $anchorをコピーしました)" -t "大きな数字のアンカー" -c "タップして「$anchor」をコピーします}"
+termux-notification  --action "(termux-clipboard-set $anchor && termux-toast $anchorをコピーしました)" -t "大きな数字のアンカー" -c "タップして「$anchor」をコピーします}"
